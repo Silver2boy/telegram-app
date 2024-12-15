@@ -1,0 +1,14 @@
+{
+  "name": "telegram-app",
+  "version": "1.0.0",
+  "description": "A mini Telegram app with dashboard and payment gateway",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.12.3",
+    "express": "^4.18.2",
+    "axios": "^1.3.0"
+  }
+}
